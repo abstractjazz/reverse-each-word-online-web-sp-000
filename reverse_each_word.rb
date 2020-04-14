@@ -22,10 +22,19 @@ end
 
 
 def reverse_each_word(phrase)
+<<<<<<< HEAD
 reversed_phrase = []
 phrase_as_array = phrase.split
 phrase_as_array.collect do |word|
 reversed_phrase<<(word.reverse)
   end
 reversed_phrase.join(' ')
+=======
+phrase = ("Hi again, just making sure it's reversed!")
+phrase_as_array = phrase.split
+phrase_as_array.collect do |word|
+phrase_as_array<<(word.reverse)
+  end
+  phrase_as_array.join(' ')
+>>>>>>> 726b551867f67622f5330df9eb63890aaaed17f3
 end
